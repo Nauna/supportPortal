@@ -191,9 +191,14 @@ var classes = [
   'foam.nanos.notification.email.EmailTemplate',
   'foam.nanos.notification.email.SMTPEmailService',
   'foam.nanos.notification.email.ClientEmailService',
+<<<<<<< HEAD
   'foam.nanos.notification.email.NullEmailService',
   'foam.nanos.notification.email.DAOEmailService',
   'foam.nanos.notification.email.SMTPEmailMessageDAO',
+=======
+  'foam.nanos.notification.email.POP3Email',
+  'foam.nanos.notification.email.ClientPOP3EmailService',
+>>>>>>> 93ad9badad83c7c0f49a73d83f12abfcf320caeb
   'foam.nanos.notification.push.PushService',
   'foam.nanos.notification.push.FirebasePushService',
   'foam.nanos.notification.Notification',
@@ -257,11 +262,18 @@ var classes = [
   'foam.nanos.http.HttpParameters',
   'foam.nanos.dig.DIG',
   'foam.nanos.dig.DUG',
+<<<<<<< HEAD
 
   'foam.nanos.jetty.HttpServer',
   'foam.nanos.servlet.ServletMapping',
   'foam.nanos.servlet.ErrorPageMapping',
 
+=======
+  //Support Files
+  'foam.support.model.TicketMessage',
+  'foam.support.model.SupportEmail',
+  'foam.support.model.Ticket',
+>>>>>>> 93ad9badad83c7c0f49a73d83f12abfcf320caeb
   'foam.lib.query.TestModel',
   'foam.lib.query.FooEnum',
   'foam.demos.net.nap.web.model.RegulatoryNotice',
@@ -294,6 +306,7 @@ var skeletons = [
   'foam.nanos.auth.twofactor.OTPAuthService',
   'foam.nanos.auth.token.TokenService',
   'foam.nanos.notification.email.EmailService',
+  'foam.nanos.notification.email.POP3Email',
   'foam.nanos.notification.push.PushService',
 
 ];

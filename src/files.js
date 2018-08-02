@@ -81,7 +81,6 @@ FOAM_FILES([
   { name: "foam/core/Reaction" },
   { name: "foam/core/Serializable" },
   { name: "foam/java/Validation" },
-
   { name: "foam/i18n/TranslationFormatStringParser", flags: ['swift'] },
   { name: "foam/swift/SwiftLib", flags: ['swift'] },
   { name: "foam/swift/Protocol", flags: ['swift'] },
@@ -133,7 +132,6 @@ FOAM_FILES([
   { name: "foam/java/JavaImport", flags: ['java'] },
   { name: "foam/java/Builder", flags: ['java'] },
   { name: "foam/java/refinements", flags: ['java'] },
-
   { name: "foam/json2/Outputter" },
   { name: "foam/json2/Deserializer" },
   { name: "foam/json2/Serializer" },
@@ -523,8 +521,28 @@ FOAM_FILES([
   { name: "foam/crypto/hash/HashableTest" },
   { name: "foam/crypto/sign/Signer" },
   { name: "foam/crypto/sign/Signable" },
+<<<<<<< HEAD
   { name: "foam/crypto/sign/SignableTest" },
   { name: "foam/test/TestObj" },
   { name: "foam/core/FObjectTest" },
   { name: "foam/nanos/dig/exception/DigErrorMessage" },
+=======
+  { name: "foam/crypto/sign/SignedFObject" },
+
+  //Support
+  { name: "foam/support/model/SupportEmail" },
+  { name: "foam/support/modal/NewEmailSupportModal"},
+  { name: "foam/support/modal/NewEmailSupportConfirmationModal"},
+  { name: "foam/support/modal/DeleteEmailSupportModal"},
+  { name: "foam/support/view/SupportEmailView"},
+  { name: "foam/support/model/TicketMessage" },
+  { name: "foam/support/model/Ticket" },
+  { name: "foam/support/view/TicketView" },
+  { name: "foam/support/view/TicketDetailView" },
+  { name: "foam/support/view/CreateTicketView" },
+  { name: "foam/support/view/TicketSummaryView" },
+  { name: "foam/support/view/SummaryCard" },
+  { name: "foam/support/view/MessageCard" },
+  { name: "foam/support/view/ReplyView" }
+>>>>>>> 93ad9badad83c7c0f49a73d83f12abfcf320caeb
 ]);
